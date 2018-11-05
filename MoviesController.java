@@ -4,7 +4,7 @@ public class MoviesController {
 
     static void likeMovies(Movie[] movies, int nrOfLikes) {
         for (int i = 0; i < nrOfLikes; i++) {
-                int min = 1;
+                int min = 0;
                 int max = movies.length - 1;
                 int range = (max - min) + 1;
                 range = (int) (Math.random() * range) + min;
